@@ -1,0 +1,27 @@
+{
+  "name": "vue-crash-course",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://qaisar7707.github.io/mevn-crud",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "predeplop": "npm run build"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "git": "^0.1.5",
+    "primeflex": "^2.0.0",
+    "primeicons": "^4.0.0",
+    "primevue": "^3.5.1",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0"
+  }
+}
